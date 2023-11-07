@@ -1,0 +1,11 @@
+time = ('Botafogo', 'Palmeiras', 'Bragantino', 'Grêmio', 'Atletico-MG', 'Flamengo', 'Athletico-PR', 'Fluminense', 'Fortaleza', 'São Paulo', 'Internacional', 'Cuiabá', 'Corinthians', 'Bahia')
+
+print(f'Lista de times: {time}')
+print('=' * 20)
+print(f'Os cinco primeiros colocados são {time[0:5]}')
+print('=' * 20)
+print(f'Os últimos 4 colocados são: {time[-4:]}')
+print('=' * 20)
+print(f'Os times em ordem alfabética:{sorted(time)}')
+print('=' * 20)
+print(f'O fluminense está na posição {time.index("Fluminense")+1}')
